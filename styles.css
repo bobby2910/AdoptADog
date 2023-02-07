@@ -644,4 +644,29 @@ body{
     .help-one img{
         width: 70%;
     } 
+    .help h2{
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+    .advice h2{
+        font-size: 1.5rem;
+    }
+    .faq h4{
+        display: none;
+    }
+    .faq h2{
+        font-size: 1.5rem;
+    }
+    .contact h3{
+        font-size: 1.3rem;
+    }
+    .contact-one a{
+        font-size: 1rem;
+    }
+    .contact-one p{
+        display: none;
+    }
+    .footer-one p{
+        font-size: 1.3rem;
+    }
 }
