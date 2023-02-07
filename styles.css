@@ -553,7 +553,7 @@ body{
 
     .banner{
         background:#eba832;
-        height: 300px;
+        height: 250px;
         background-size: cover;
     }
     .banner h1{
@@ -621,6 +621,18 @@ body{
         grid-gap: 7%;
         background: #FAF9F6;
     }
+    .action-box{
+        /* background: #fff; */
+        border-radius: 10px;
+        width: 70%;
+        margin: auto;
+    }
+    .action-box:hover{
+        margin-top: 5px;
+    }
+    .action-box p{
+        margin-top: 0;
+    }
     .action-box img{
         width: 10%;
         margin-top: 5px;
@@ -640,6 +652,7 @@ body{
     }
     .benefits-one p{
         font-size: 1rem;
+        text-align: justify;
     }
     .help-one img{
         width: 70%;
@@ -656,6 +669,12 @@ body{
     }
     .faq h2{
         font-size: 1.5rem;
+    }
+    .faq-one{
+        padding: 6%;
+    }
+    .faq-one p{
+        text-align: justify;
     }
     .contact h3{
         font-size: 1.3rem;
