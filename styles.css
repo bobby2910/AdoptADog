@@ -125,7 +125,7 @@ body{
     padding: 15px;
 }
 .action-box img{
-    width: 70%;
+    width: 80%;
     margin-top: 5px;
     transition-duration: 0.5s;
 }
@@ -461,32 +461,29 @@ body{
     }
     .wrapper {
         margin: auto; 
-      
         max-width: 95%; 
-      
         /* padding-right: 10px; 
         padding-left:  10px;  */
-      }
+    }
       .banner{
         background: url(images/banner.png);
-        height: 100vh;
+        max-height: 550px;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
     }
     .banner h1{
         color: #FFF;
-        font-size: 4rem;
+        font-size: 3rem;
         max-width: 440px;
         margin-top: 0;
-        margin-left: 10%;
+        margin-left: -2%;
         margin-bottom: 0;
-        padding-top: 5%;
+        padding-top: 35%;
         text-align: center;
     }
    
     .action{
-        margin: 0;
         padding: 0 10%;
     }
     .action-box img{
@@ -505,20 +502,21 @@ body{
     .benefits-one{
     display: block;
     grid-gap: 40px;
-}
+    }
     .help-one{
     display: block;
     grid-gap: 0px;
-    
-   
-}
-.help h2{
+    }
+    .help h2{
     padding: 0;
-}
+    }
     .help-one div{
     margin: auto;
     padding: 0;
-}
+    }  
+    .help-one img{
+        width: 50%;
+    } 
 
 
 }
@@ -530,6 +528,17 @@ body{
 
 
 @media screen and (max-width:600px) {
+
+    .button{
+        background: #0a1612;
+        color: #eba832;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        transition-duration: 0.2s;
+        border-radius: 5px;
+    }
    
     .links{
         display: none;
@@ -543,20 +552,39 @@ body{
     }
 
     .banner{
-        background:#FAF9F6;
+        background:#eba832;
         height: 300px;
         background-size: cover;
     }
     .banner h1{
+        padding: 0;
         color: #0a1612;;
         font-size: 3rem;
-        margin-left: 10%;
+        margin: auto;
         margin-bottom: 0;
         text-align: center;
     }
-    .banner-button{
-        display: block;
-        
+    .banner-btn{
+        text-align: center;
+        margin-left: 0;
+    }
+    .banner-btn button{
+       font-size: 0.9rem;
+       background: #C5C1C0;
+       color: #fff;
+    }
+    .banner-btn button:hover{
+        background: #C5C1C0;
+        color: #0a1612;
+     }
+    .help-one p{
+        display: none;
+    }
+    .help-one h3{
+        display: none;
+    }
+    .help-one div{
+        text-align: center;
     }
 
     .contact{
@@ -598,4 +626,22 @@ body{
         margin-top: 5px;
         transition-duration: 0.5s;
     }
+    .dogs h3{
+        display: none;
+    }
+    .dogs h2{
+        font-size: 1.5rem;
+    }
+    .dogs-pics{
+        margin: 50px auto;
+    }
+    .benefits h2{
+        font-size: 1.5rem;
+    }
+    .benefits-one p{
+        font-size: 1rem;
+    }
+    .help-one img{
+        width: 70%;
+    } 
 }
